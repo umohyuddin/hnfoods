@@ -42,7 +42,7 @@ export function Footer() {
             <div className="flex gap-3 mb-6">
               <SocialLink href="https://instagram.com/hnfoodspk" icon={Instagram} />
               <SocialLink href="https://facebook.com/hnfoodspk" icon={Facebook} />
-              <SocialLink href="https://wa.me/923041110915" icon={MessageCircle} />
+              <SocialLink href="https://wa.me/923093336703" icon={MessageCircle} />
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
               0304-1110915<br />
@@ -55,7 +55,7 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
           <p>© 2026 HN Foods. All Rights Reserved.</p>
-          <p>Made with <span className="text-gold">♥</span> in Pakistan</p>
+          <p>Made by <a href="https://cogneticai.io" className="text-gold">CogneticAI</a> in Pakistan</p>
         </div>
       </div>
     </footer>
