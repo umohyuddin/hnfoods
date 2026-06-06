@@ -143,13 +143,13 @@ export function Reservation() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
-    const message = `🍽️ New Reservation Request
+    const message = ` New Reservation Request
 
-👤 Name: ${form.name}
-📞 Phone: ${form.phone}
-🏙️ City: ${form.city}
-📅 Date: ${form.date}
-⏰ Time: ${form.time}
+Name: ${form.name}
+Phone: ${form.phone}
+City: ${form.city}
+Date: ${form.date}
+Time: ${form.time}
 
 📝 Special Request:
 ${form.request || "None"}`;
@@ -250,10 +250,10 @@ ${form.request || "None"}`;
                     <option value="" disabled>
                       Select a city
                     </option>
-                    <option>Multan</option>
+                    {/* <option>Multan</option> */}
                     <option>Lahore</option>
-                    <option>Islamabad</option>
-                    <option>Karachi</option>
+                    {/* <option>Islamabad</option>
+                    <option>Karachi</option> */}
                   </select>
                 </Field>
 
