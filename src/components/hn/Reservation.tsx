@@ -107,13 +107,14 @@ export function Reservation() {
               <p className="font-urdu text-xl text-gold/70 mb-6" dir="rtl">رابطہ کریں</p>
               <div className="gold-divider w-12 mb-8" />
 
-              <ContactRow icon={Phone} label="Call / WhatsApp" value="0304-1110915" href="tel:+923041110915" />
+              <ContactRow icon={Phone} label="Call" value="0304-1110915" href="tel:+923041110915" />
+              <ContactRow icon={Phone} label="WhatsApp" value="0309-3336703" href="tel:+923093336703" />
               <ContactRow icon={Clock} label="Timings" value="05 AM – 10 PM Daily" />
               <ContactRow icon={Instagram} label="Instagram" value="@hnfoodspk" href="https://instagram.com/hnfoodspk" />
             </div>
 
             <a
-              href="https://wa.me/923041110915"
+              href="https://wa.me/923093336703"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center justify-center gap-2 rounded-full border border-gold/50 py-3.5 text-xs font-semibold uppercase tracking-[0.2em] text-cream hover:bg-gold/10 transition-all"
