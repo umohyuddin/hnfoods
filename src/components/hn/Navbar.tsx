@@ -35,9 +35,6 @@ export function Navbar() {
             <span className="font-serif text-xl tracking-wide text-cream">
               HN <span className="text-gradient-gold italic">Foods</span>
             </span>
-            <span className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground mt-0.5">
-              Since Multan
-            </span>
           </div>
         </a>
 
